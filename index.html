@@ -1,0 +1,106 @@
+<!-- Copia y pega tu código HTML del paso anterior (Space House 02) -->
+<!-- Copia y pega tu código HTML del paso anterior (Space House 01) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Space House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Space House</h1>
+      <nav class="nv">
+        <ul>
+          <li><a href="#saturno">saturno</a></li>
+          <li><a href="#robot">robot</a></li>
+          <li><a href="#marte">marte</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Escribe aquí tu código html -->
+      <section class="informacionPlaneta" id="saturno">
+        <div class="imagenPlaneta">
+          <img
+            src="https://th.bing.com/th/id/OIP.uptlF2hnuc7DRxsTHQ0PxwHaEJ?w=274&h=180&c=7&r=0&o=5&pid=1.7"
+          />
+        </div>
+        <div class="descripcionPlaneta">
+          <p>
+            <span>Saturno </span>es el sexto planeta del sistema solar y es
+            conocido por su impresionante sistema de anillos. Es un gigante
+            gaseoso compuesto principalmente de hidrógeno y helio, con un
+            diámetro de aproximadamente 120,660 kilómetros, lo que lo convierte
+            en el segundo planeta más grande del sistema solar. La atmósfera de
+            Saturno es densa y está compuesta principalmente de hidrógeno y
+            helio, con trazas de otros gases como metano y amoníaco. Saturno
+            tiene al menos 146 lunas conocidas, siendo Titán la más grande y una
+            de las más interesantes debido a su densa atmósfera y la presencia
+            de lagos de metano líquido. La temperatura promedio en Saturno es de
+            aproximadamente -176 °C, y su periodo de rotación es de solo 10.7
+            horas, lo que significa que un día en Saturno es muy corto. Este
+            planeta ha sido explorado por varias misiones espaciales, incluyendo
+            la sonda Cassini, que proporcionó una gran cantidad de información
+            sobre Saturno y sus anillos.
+          </p>
+        </div>
+      </section>
+      <section class="informacionProyecto" id="robot">
+        <div class="descripcionProyecto">
+          <p>
+            <span>Este es el robot que se encargará de armar los domos</span> y
+            colocar todos los elementos necesarios para cuando lleguen los
+            primeros habitantes a tu planeta elegido. Para ello necesitará saber
+            cuánto pesan los objetos en el planeta para regular cuánta fuerza
+            debe emplear para transportarlo. Teniendo en cuenta que
+            <span>cada domo pesa 4800kg en la tierra</span>, ¿cuánto pesará en
+            saturno?
+          </p>
+          <button onclick="calcularPeso()">calcular peso del objeto</button>
+        </div>
+        <div class="imagenProyecto">
+          <img
+            src="https://assets.digitalhouse.com/content/ar/sch/marsrover.jpeg"
+          />
+        </div>
+      </section>
+      <section class="informacionPlaneta" id="marte">
+        <div class="imagenPlaneta">
+          <img
+            src="https://th.bing.com/th/id/OIP.2KEIQ0lwMsWpuAF_9HLh6QHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+          />
+        </div>
+        <div class="descripcionPlaneta">
+          <p>
+            <span>Marte </span> es el cuarto planeta en orden de distancia al
+            Sol y el segundo más pequeño del sistema solar, después de Mercurio.
+            Recibió su nombre en homenaje al homónimo dios de la guerra de la
+            mitología romana (Ares en la mitología griega), y también es
+            conocido como «el planeta rojo»3​4​ debido a la apariencia rojiza5​
+            que le confiere el óxido de hierro predominante en su superficie.
+            Marte es el planeta interior más alejado del Sol. Es un planeta
+            telúrico con una atmósfera delgada de dióxido de carbono, y tiene
+            dos satélites pequeños y de forma irregular, Fobos y Deimos (hijos
+            del dios griego), que podrían ser asteroides capturados6​7​
+            similares al asteroide troyano (5261) Eureka. Sus características
+            superficiales recuerdan tanto a los cráteres de la Luna como a los
+            valles, desiertos y casquetes polares de la Tierra.
+          </p>
+          <button onclick="calcularPesom()">calcular peso del objeto</button>
+          <button onclick="signup()">
+            registrarse para recibir mensajes promocionales
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

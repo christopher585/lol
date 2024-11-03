@@ -1,0 +1,77 @@
+/* Copia y pega tu CSS del paso anterior (Space House 02) */
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+body {
+  background-image: url("https://i.ibb.co/HKMBtnp/pexels-alex-andrews-816608.jpg");
+  background-size: 80%;
+}
+
+h1 {
+  font-family: "Aldrich", sans-serif;
+  color: aliceblue;
+  font-size: 120px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  height: 100px;
+}
+
+/* Escribe debajo tu código CSS */
+main {
+  display: grid;
+  gap: 10%;
+}
+.informacionPlaneta {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.informacionProyecto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+section {
+  color: black;
+  background-color: bisque;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+}
+img {
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+button {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.descripcionPlaneta span {
+  background-color: black;
+  color: aliceblue;
+}
+.descripcionProyecto span {
+  color: white;
+  background-color: black;
+}
+.informacionProyecto span {
+  color: red;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+  background-color: bisque;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
